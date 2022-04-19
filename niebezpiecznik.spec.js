@@ -64,5 +64,11 @@ describe('Niebezpiecznik',()=>{
         cy.contains('Szkolenie przez internet:Bezpieczeństwo Sieci')
             .click()
 
+        cy.get('span[class="cena"]')
+            .should('contain', '3935zł')
+
+        cy.contains('« wróć do listy wszystkich produktów')
+            .click()
+
     })
 })
