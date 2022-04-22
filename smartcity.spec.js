@@ -14,7 +14,7 @@ describe('SmartCityForum',()=>{
 
         cy.get('[id="dolnoslaskie"]')
             .click({force:true})
-
+            
         cy.get('[id="zachodniopomorskie"]')
             .click({force:true})
         cy.get('[id="zachodniopomorskie"]')
